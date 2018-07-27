@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/anaxexp/gotpl.svg?branch=master)](https://travis-ci.org/anaxexp/gotpl)
 
-# Lighweight go-based template engine
+# Lighweight go-based template engine used in provisioning containers
 
 Usage:
 ```
