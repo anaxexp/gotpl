@@ -3,6 +3,7 @@ VERSION ?= latest
 .PHONY: build test dist
 
 build:
+	go env
 	mkdir -p ./bin
 	go build -o ./bin/gotpl .
 

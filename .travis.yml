@@ -7,7 +7,6 @@ install:
   - make
 
 script:
-  - make build
   - make test
   - make VERSION="${TRAVIS_TAG:-latest}" dist
 

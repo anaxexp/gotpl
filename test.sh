@@ -4,6 +4,6 @@ set -ex
 
 export NAME='Gotpl'
 
-bin/gotpl test/hello.tmpl > test/hello.out
+./bin/gotpl ./test/hello.tmpl > ./test/hello.out
 
-cat test/hello.out | grep  'Hello Gotpl!'
+cat ./test/hello.out | grep  'Hello Gotpl!'
